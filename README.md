@@ -1,7 +1,7 @@
 - 👋 Hi, I’m Vincent Zefran
 - 👀 I’m interested in web/app development
 - 🌱 I’m currently learning Java 
-- 📫 Contact me @vz24@iastate.edu, 773-991-0722
+- 📫 Contact me @vz24@iastate.edu, +1(773)991-0722
 
 <!---
 vinnyzef/vinnyzef is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
