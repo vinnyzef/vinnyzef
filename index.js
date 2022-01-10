@@ -128,36 +128,42 @@ function sudokuIsValid(puzzle){
   let colCheck = true;
   let secCheck = true;
   let solution = false;
+  let temp = [];
   //checks to make sure rows have 1 to 9
   for(let i = 0; i < 9; i++){
-    if(includes1to9(getRow(puzzle,i)) == false){
+   temp = getRow(puzzle,i);
+    if(includes1to9(temp) === false){
       rowCheck = false;
     }
   }
   //checks to make sure columns have 1 to 9
-    for(let i = 0; i < 9; i++){
-    if(includes1to9(getColumn(puzzle,i)) == false){
+    for(let t = 0; t < 9; t++){
+     temp = getColumn(puzzle,t);
+    if((includes1to9(temp)) === false){
       colCheck = false;
     }
   }
   // checks to make sure sections have 1 to 9
-    for(let i = 0; i < 3; i++){
-    if(includes1to9(getSection(puzzle,0,i)) == false){
+    for(let j = 0; j < 3; j++){
+      temp = getSection(puzzle,0,j);
+    if((includes1to9(temp)) === false){
       secCheck = false;
     }
   }
-      for(let i = 0; i < 3; i++){
-    if(includes1to9(getSection(puzzle,1,i)) == false){
+      for(let k = 0; k < 3; k++){
+          temp = getSection(puzzle,1,k);
+    if((includes1to9(temp)) === false){
       secCheck = false;
     }
   }
-      for(let i = 0; i < 3; i++){
-    if(includes1to9(getSection(puzzle,2,i)) == false){
+      for(let l = 0; l < 3; l++){
+       temp = getSection(puzzle,2,l);
+    if((includes1to9(temp)) === false){
       secCheck = false;
     }
   }
   //checks to make sure all of these are true so that the puzzle is solved
-  if(rowCheck == true && colCheck == true && secCheck == true){
+  if(rowCheck === true && colCheck === true && secCheck === true){
     solution = true;
   }
   return solution;
@@ -180,6 +186,7 @@ sudokuIsValid(puzzle);
 //               [ 3,2,8,1,9,6,5,4,7 ]];
 
 // sudokuIsValid(p8zzle);
+
 
 
 
