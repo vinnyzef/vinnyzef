@@ -1,6 +1,6 @@
 - 👋 Hi, I’m Vincent Zefran
 - 👀 I’m interested in web/app development
-- 🌱 I’m currently learning JavaScript 
+- 🌱 I’m currently learning JavaScript / React / Express / SQL / Node
 - 📫 Contact me @vzef21.icloud.com, +1(773)991-0722
 
 <!---
