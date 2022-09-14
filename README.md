@@ -1,5 +1,5 @@
 - 👋 Hi, I’m Vincent Zefran
-- 👀 I’m interested in web/app development
+- 👀 I’m a Freelance Web Developer
 - 🌱 I’m currently learning JavaScript / React / Express / SQL / Node
 - 📫 Contact me @vincent.zefran@gmail.com, +1(773)991-0722
 
